@@ -1,0 +1,45 @@
+ body {
+     background-color: black;
+     font-family:Arial, Helvetica, sans-serif;
+     color: white;
+ }
+ 
+ #app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+#startPage {
+    position: relative;
+    text-align: center;
+    
+}
+.centered {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgba(218, 15, 15, 0.918);
+}
+button {
+    background-color:rgb(27, 24, 24);
+    color: white;
+    border: none;
+    padding: 7px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button:hover {
+    background-color: red;
+    cursor: pointer;
+}
+.restartButton{
+    padding: 15px;
+    font-size: 20pt;
+    top: 30px;
+}
+#imageArea {
+    display: flex;
+    justify-content: center;
+}
+
